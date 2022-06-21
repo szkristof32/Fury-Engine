@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="..">
+      <UniqueIdentifier>{61705900-4DFC-870B-B6AA-880BA255880B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Diplomacy">
+      <UniqueIdentifier>{B2DE8262-9E41-1207-47C7-4ABD3309DE89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Fury Engine">
+      <UniqueIdentifier>{8C5EA414-782C-981A-61C0-08414D2D747F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Fury Engine\vendor">
+      <UniqueIdentifier>{699FE290-D50B-9E8B-9EFF-35E90A2BC0F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Fury Engine\vendor\GLFW">
+      <UniqueIdentifier>{4864C64A-3474-721B-9D2D-D739895C61B4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="..\Fury Engine\vendor\Glad">
+      <UniqueIdentifier>{F0EFC64A-DCFF-721B-45B9-D73931E861B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Diplomacy\premake5.lua">
+      <Filter>..\Diplomacy</Filter>
+    </None>
+    <None Include="..\..\Fury Engine\premake5.lua">
+      <Filter>..\Fury Engine</Filter>
+    </None>
+    <None Include="..\..\Fury Engine\vendor\GLFW\premake5.lua">
+      <Filter>..\Fury Engine\vendor\GLFW</Filter>
+    </None>
+    <None Include="..\..\Fury Engine\vendor\Glad\premake5.lua">
+      <Filter>..\Fury Engine\vendor\Glad</Filter>
+    </None>
+    <None Include="..\..\premake5.lua">
+      <Filter>..</Filter>
+    </None>
+    <None Include="premake5.lua" />
+  </ItemGroup>
+</Project>

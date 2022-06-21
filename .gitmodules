@@ -1,0 +1,9 @@
+[submodule "Fury Engine/vendor/spdlog"]
+	path = Fury Engine/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Fury Engine/vendor/GLFW"]
+	path = Fury Engine/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
+[submodule "Fury Engine/vendor/glm"]
+	path = Fury Engine/vendor/glm
+	url = https://github.com/g-truc/glm
